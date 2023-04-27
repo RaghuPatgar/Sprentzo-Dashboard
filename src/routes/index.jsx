@@ -188,14 +188,14 @@ import AddProduct from "../pages/newPage/product";
 import CreateProject from "../pages/newPage/createProject";
 
 // // //ProductList Pages
-import EcommerceProducts from "../pages/Ecommerce/EcommerceProducts/index";
-import EcommerceProductDetail from "../pages/Ecommerce/EcommerceProducts/EcommerceProductDetail";
-import EcommerceOrders from "../pages/Ecommerce/EcommerceOrders/index";
-import EcommerceCustomers from "../pages/Ecommerce/EcommerceCustomers/index";
-import EcommerceCart from "../pages/Ecommerce/EcommerceCart";
-import EcommerceCheckout from "../pages/Ecommerce/EcommerceCheckout";
-import EcommerceShops from "../pages/Ecommerce/EcommerceShops/index";
-import EcommerceAddProduct from "../pages/Ecommerce/EcommerceAddProduct";
+import AddProducts from "../pages/ProductList/AddProduct";
+import ProductCart from "../pages/ProductList/ProductCart";
+import ProductCheckout from "../pages/ProductList/ProductCheckout";
+import Products from "../pages/ProductList/Products/index";
+import ProductCustomers from "../pages/ProductList/ProductCustomers/index";
+import ProductDetail from "../pages/ProductList/Products/ProductDetail";
+import ProductShops from "../pages/ProductList/ProductShops/index";
+import ProductOrder from "../pages/ProductList/ProductOrders/index";
 
 
 const authProtectedRoutes = [
@@ -226,14 +226,14 @@ const authProtectedRoutes = [
   { path: "/profile", component: UserProfile },
 
   //   //Ecommerce
-  { path: "/ecommerce-product-detail/:id", component: EcommerceProductDetail },
-  { path: "/ecommerce-products", component: EcommerceProducts },
-  { path: "/ecommerce-orders", component: EcommerceOrders },
-  { path: "/ecommerce-customers", component: EcommerceCustomers },
-  { path: "/ecommerce-cart", component: EcommerceCart },
-  { path: "/ecommerce-checkout", component: EcommerceCheckout },
-  { path: "/ecommerce-shops", component: EcommerceShops },
-  { path: "/ecommerce-add-product", component: EcommerceAddProduct },
+  { path: "/product-detail/:id", component: ProductDetail },
+  { path: "/products", component: Products },
+  { path: "/orders", component: ProductOrder },
+  { path: "/customers", component: ProductCustomers },
+  { path: "/cart", component: ProductCart },
+  { path: "/checkout", component: ProductCheckout },
+  { path: "/shops", component: ProductShops },
+  { path: "/add-product", component: AddProducts },
 
   //   //Email
   { path: "/email-inbox", component: EmailInbox },

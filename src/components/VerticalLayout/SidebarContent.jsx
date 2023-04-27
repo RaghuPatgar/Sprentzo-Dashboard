@@ -148,30 +148,30 @@ const SidebarContent = props => {
               </Link>
               <ul className="sub-menu" aria-expanded="false">
                 <li>
-                  <Link to="/ecommerce-products">{props.t("Products")}</Link>
+                  <Link to="/products">{props.t("Products")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-product-detail/1">
+                  <Link to="/product-detail/1">
                     {props.t("Product Detail")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-orders">{props.t("Orders")}</Link>
+                  <Link to="/orders">{props.t("Orders")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-customers">{props.t("Customers")}</Link>
+                  <Link to="/customers">{props.t("Customers")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-cart">{props.t("Cart")}</Link>
+                  <Link to="/cart">{props.t("Cart")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-checkout">{props.t("Checkout")}</Link>
+                  <Link to="/checkout">{props.t("Checkout")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-shops">{props.t("Shops")}</Link>
+                  <Link to="/shops">{props.t("Shops")}</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-add-product">
+                  <Link to="/add-product">
                     {props.t("Add Product")}
                   </Link>
                 </li>

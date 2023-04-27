@@ -86,7 +86,7 @@ const Dashboard = props => {
   }, [dispatch]);
 
   //meta title
-  document.title="Dashboard | Skote - Vite React Admin & Dashboard Template";
+  document.title="Dashboard | Sprentzo";
 
   return (
     <React.Fragment>

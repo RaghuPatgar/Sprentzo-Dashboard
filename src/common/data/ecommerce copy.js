@@ -1,10 +1,10 @@
 /** Product 1 */
 import product1 from "../../assets/images/product/football.png"
-import product7 from "../../assets/images/product/football.png"
-import product8 from "../../assets/images/product/football.png"
+import product7 from "../../assets/images/product/Pro-1a.png"
+import product8 from "../../assets/images/product/Pro-1b.png"
 
 /** Product 2 */
-import product2a from "../../assets/images/product/crickit.png"
+import product2a from "../../assets/images/product/img-2.png"
 import product2b from "../../assets/images/product/Pro-2a.png"
 import product2c from "../../assets/images/product/Pro-2b.png"
 
@@ -32,9 +32,9 @@ const productsData = [
   {
     id: 1,
     image: "product1",
-    name: "Football",
+    name: "Half sleeve T-shirt",
     link: "#",
-    category: "Football",
+    category: "T-shirts",
     rating: 5,
     oldPrice: 500,
     newPrice: 450,
@@ -43,15 +43,15 @@ const productsData = [
     reviews: 0,
     subImage: [product1, product7, product8],
     specification: [
-      { type: "Category", value: "Sports" },
-      { type: "Brand", value: "Nike" },
+      { type: "Category", value: "T-shirt" },
+      { type: "Brand", value: "Levis" },
       { type: "Size", value: "M" },
-      { type: "Color", value: "White" },
+      { type: "Color", value: "Red" },
     ],
 
     features: [
-      { icon: "fa fa-caret-right", type: "Fit", value: "Regular" },
-      { icon: "fa fa-caret-right", type: "", value: "Highest quality" },
+      { icon: "fa fa-caret-right", type: "Fit", value: "Regular fit" },
+      { icon: "fa fa-caret-right", type: "", value: "Highest quality fabric" },
       {
         icon: "fa fa-caret-right",
         type: "",
@@ -64,14 +64,14 @@ const productsData = [
       },
     ],
     colorOptions: [
-      { image: "product1", color: "White" },
-      { image: "product6", color: "Black" },
+      { image: "product8", color: "Red" },
+      { image: "product7", color: "Black" },
     ],
   },
   {
     id: 2,
     image: "product2",
-    name: "Cricket Kit Bag",
+    name: "Light blue T-shirt",
     link: "#",
     category: "T-shirts",
     rating: 4,
@@ -108,7 +108,7 @@ const productsData = [
   {
     id: 3,
     image: "product3",
-    name: "GymSet",
+    name: "Black Color T-shirt",
     link: "#",
     category: "T-shirts",
     rating: 4,
@@ -146,7 +146,7 @@ const productsData = [
   {
     id: 4,
     image: "product4",
-    name: "Gym Set",
+    name: "Hoodie (Blue)",
     link: "#",
     category: "Hoodies",
     rating: 4,
@@ -218,7 +218,7 @@ const productsData = [
   {
     id: 6,
     image: "product6",
-    name: "Green color T-",
+    name: "Green color T-shirt",
     link: "#",
     category: "T-shirts",
     rating: 4,
