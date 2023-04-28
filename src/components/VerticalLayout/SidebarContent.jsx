@@ -120,7 +120,7 @@ const SidebarContent = props => {
               {/* </ul> */}
             </li>
 
-            {/* <li>
+            <li>
               <li>
                 <Link to="/#" className="has-arrow ">
                   <i className="bx bx-file"></i>
@@ -139,7 +139,7 @@ const SidebarContent = props => {
 
                 </ul>
               </li>
-            </li> */}
+            </li>
 
             <li>
               <Link to="/#" className="has-arrow">
@@ -200,7 +200,7 @@ const SidebarContent = props => {
                 </li>
               </ul>
             </li>
-
+            
 
             {/* <li className="menu-title">{props.t("Apps")}</li> */}
 

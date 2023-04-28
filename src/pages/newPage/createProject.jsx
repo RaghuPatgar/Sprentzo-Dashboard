@@ -138,7 +138,7 @@ const CreateProject = () => {
                                             </Col>
                                         </FormGroup>
                                     </Form>
-                                    {/* <Row className="mb-4">
+                                    <Row className="mb-4">
                                         <Label className="col-form-label col-lg-2">
                                             Attached Files
                                         </Label>
@@ -206,7 +206,7 @@ const CreateProject = () => {
                                                 </div>
                                             </Form>
                                         </Col>
-                                    </Row> */}
+                                    </Row>
                                     <Row className="justify-content-end">
                                         <Col lg="10">
                                             <Button type="submit" color="primary">

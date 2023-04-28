@@ -210,7 +210,7 @@ const ProjectsCreate = () => {
                   <Row className="justify-content-end">
                     <Col lg="10">
                       <Button type="submit" color="primary">
-                        Create Project
+                        Create Product
                       </Button>
                     </Col>
                   </Row>
